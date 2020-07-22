@@ -1,1 +1,187 @@
-<mxfile host="app.diagrams.net" modified="2020-07-22T10:06:46.103Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="jY1BIpo9EDcQawQToSP4" version="13.5.0" type="github"><diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">7ZjLcpswFIafhmU6RhgbL2Pn0kU6yTSdSbOU4QTUCMQIEeM+fSUQYC5OcGrctNOVpV8XxP/pnMPYsFZhds1xHHxhHlADTbzMsC4MhEyELPmjlK1WTAcVis+Jp7VauCc/QYsTrabEg6QxUTBGBYmbosuiCFzR0DDnbNOc9sRo86kx9qEj3LuYdtUH4omgUB17UuufgfhB+WRzokdCXE7WQhJgj212JOvSsFacMVG0wmwFVLlX+lKsu9ozWh2MQySGLLCidHmV8YW7vZnE0e3DN4Svz/QuL5im+oUN6/x2/UNZWZxabEsr5AvEqpmG9IY8ASWR7C1j4CQEAVyOUC3f1dpSghFYamrczPuU4jgh63zbiVQ4uClPyAt8haTgn6ssjTzwdK8yL+8Izp4rHGpT/RbABWR77TEr0+V1BSYPyLdySnVXNSd9Ux3d3dTUK7bBDnGrFLG+aX61dQ1DNjSPA9igLps2kpiRSOTPtZeGfdHCwbgImM8iTHeBHN/Y/Tdrr9tTu2H2vM/srtfmYiyvrY7XHkliLNyg47kyg8gEcU6JH0lpzYRgYe4e5uJc5RzlvdxKahB5pbKmzH0up+lE5wwlAF4nTQ3xXyZLzH14bR7q58SBYiFjsplQe2zXS+/UTaz5npn9gMsdEpZyF/SiFrvqFO/HOf2HQ8du5qkqb70RO85YoWP/LyFZqxR8mBIy+6vjwD6khPSa3VNCZmN5Pe94zUGkPBpeQHaKBYtBDi09nAS5z2YxvFM2ICPiuzZdtR9V+9PCfndFKVLy25dpWEUZFDe/WWTQvHkFkDVrblEcdbQq4xzho6HnA0G6xrcVWtV5PCTSDgeLBoKd/SmwnaAd+fNh0QEr0dE1lniOAtY8EdihETs9Gdhps0KiduUbGWxZEU6dpM2TJenph4vlNnJ7fqQkLbv1vyfF9PpPKOvyFw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-07-22T12:09:46.869Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="_ddbZbo0DwXPNWsClMky" version="13.5.0" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="2704" dy="1191" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="运营后台" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="60" width="100" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="45" y="70" width="10" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="play_svr" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="60" width="100" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="生成一个新的测评id并刷新测评列表" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.081;exitY=0.164;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=10;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="202.48000000000002" as="targetPoint" />
+            <mxPoint x="245.81000000000006" y="202.48000000000002" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="新建一个测评" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;fontSize=10;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-1" value="kiko" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="60" width="100" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="_IQ1lsEtTBxcvNftNDux-1">
+          <mxGeometry x="45" y="380" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-22" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontSize=10;entryX=0.103;entryY=0.873;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="_IQ1lsEtTBxcvNftNDux-2" parent="_IQ1lsEtTBxcvNftNDux-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="419" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-30" y="419" />
+              <mxPoint x="-30" y="476" />
+            </Array>
+            <mxPoint x="-170" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-42" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="_IQ1lsEtTBxcvNftNDux-1">
+          <mxGeometry x="45" y="550" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-3" value="客户端请求" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="60" width="100" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-31" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="_IQ1lsEtTBxcvNftNDux-3">
+          <mxGeometry x="45" y="530" width="10" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-5" value="不断编辑测评信息" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="74.81034482758628" y="260.0000000000002" as="sourcePoint" />
+            <mxPoint x="245" y="260.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-7" value="刷新测评列表" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=-0.069;exitY=0.271;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="320.00000000000006" as="targetPoint" />
+            <mxPoint x="244.30999999999995" y="320.00000000000006" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-10" value="不断编辑页面设置" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75.00034482758628" y="380.0000000000002" as="sourcePoint" />
+            <mxPoint x="245.19" y="380.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-11" value="刷新测评列表" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=-0.069;exitY=0.271;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="440" as="targetPoint" />
+            <mxPoint x="244.30999999999995" y="440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-12" value="上架测评模版" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255.00034482758633" y="450.0000000000002" as="sourcePoint" />
+            <mxPoint x="425.19000000000005" y="450.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-17" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-27" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="590" width="10" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-28" value="根据流程定义id开始测评" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=10;" edge="1" parent="1" source="_IQ1lsEtTBxcvNftNDux-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="599.8399999999999" as="sourcePoint" />
+            <mxPoint x="255" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-29" value="&lt;blockquote&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;新建流程定义&lt;/span&gt;&lt;/blockquote&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=10;fontStyle=0;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="330" y="503" width="40" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-30" value="返回流程实例id和第一个任务实例id" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=10;entryX=1.071;entryY=0.836;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="_IQ1lsEtTBxcvNftNDux-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="423" y="660" as="targetPoint" />
+            <mxPoint x="420" y="660" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-32" value="做下一题" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="720" as="sourcePoint" />
+            <mxPoint x="255" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-33" value="返回下一个实例id" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="593" y="810" as="targetPoint" />
+            <mxPoint x="258" y="810" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-38" value="题全做完" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="840" as="sourcePoint" />
+            <mxPoint x="255" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-39" value="解析上下文，根据参数条件计算并保存测评结果" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="593" y="930" as="targetPoint" />
+            <mxPoint x="258" y="930" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-41" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="610" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-43" value="启动流程实例" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=10;exitX=1.071;exitY=0.245;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.043;entryY=0.236;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265.7099999999998" y="621.7" as="sourcePoint" />
+            <mxPoint x="424.56999999999994" y="621.1600000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-44" value="返回任务实例id" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595.5" y="689" as="targetPoint" />
+            <mxPoint x="256" y="689" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="476" y="689" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-45" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="730" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-46" value="启动任务实例并保存回答" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=10;exitX=1.071;exitY=0.245;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.043;entryY=0.236;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="264.99999999999983" y="740.5400000000001" as="sourcePoint" />
+            <mxPoint x="423.85999999999996" y="740.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-47" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="730" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-48" value="返回下一个实例id" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=10;entryX=1.071;entryY=0.836;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="264.99999999999983" y="774.1600000000001" as="targetPoint" />
+            <mxPoint x="419.29" y="774" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-49" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="850" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-50" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="850" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-51" value="获取当前上下文" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fontSize=10;exitX=1.071;exitY=0.245;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.043;entryY=0.236;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265.9999999999998" y="860.5399999999997" as="sourcePoint" />
+            <mxPoint x="424.8599999999999" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_IQ1lsEtTBxcvNftNDux-52" value="当前上下文信息" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;fontSize=10;entryX=1.071;entryY=0.836;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="264.9999999999998" y="900.1600000000001" as="targetPoint" />
+            <mxPoint x="419.28999999999974" y="900" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
